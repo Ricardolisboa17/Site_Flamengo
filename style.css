@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #000000;
+}
+
+header img{
+    width: 15%;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 30px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold; 
+}
+
+nav a{
+    color: #b71212;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #faf3f3;
+}
+
+h1 , h2{
+    text-align: center;
+    background: radial-gradient(rgb(218, 20, 20), rgba(11, 11, 11, 0.8));
+    box-shadow: 5px 10px 10px #000000;
+    padding: 15px;
+    margin: 0 0 1em;
+    color: rgb(248, 249, 249);
+    text-transform: uppercase;
+}
+
+.conteudo p{
+    text-align: center;
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+strong{
+    color: #b71212;
+    font-style: italic;
+}
+
+.todos{
+    background: #fefefe;
+    padding: 2em 0; 
+}
+
+.titulos{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagem-flamengo{
+    width: 400px;
+	float: left;
+	margin: 0 80px 0 0; 
+}
+
+.lista-itens{
+    font-size: 25px;   
+    list-style-type: none;
+}
+
+.itens{
+    padding: 4px;
+}
+
+.itens::before{
+    content: "🏆";
+}
+
+.localizacao-mapa{
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa{
+    width: 940px;
+    margin: 0 auto;
+}
+
+footer {
+    background: #000000;
+	padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.apoio{
+    color: #fdfcfc;
+    font-size: 20px;  
+    padding: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.rodape li a {
+	color: hsl(0, 0%, 91%);
+	font-size: 20px;  
+    font-weight: bold;  
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* css da página torcidas */
+
+.principal{
+	background: #FEFEFE;
+	
+}
+
+.torcidas{
+    width: 200px;
+	float: left;
+	margin: 0 20px 20px 20px;
+}
+
+.principal{
+    background:  #fffbfb;
+    
+}
+
+.principal-2, .principal-3{
+    background: linear-gradient(#FEFEFE, #cfcece);
+}
+
+.principal p, .principal-2 p, .principal-3 p {
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 100px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
