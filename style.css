@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header{
@@ -9,6 +10,10 @@ header{
 
 header img{
     width: 15%;
+}
+
+.img-logo-espaço{
+    margin: 0 0 40px 150px;
 }
 
 .caixa{
@@ -109,7 +114,9 @@ footer {
 	padding: 50px 0;
     display: flex;
     justify-content: space-around;
+    padding: 30px;
 }
+
 .apoio{
     color: #fdfcfc;
     font-size: 20px;  
@@ -118,6 +125,7 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     
 }
+
 .rodape li a {
 	color: hsl(0, 0%, 91%);
 	font-size: 20px;  
@@ -126,12 +134,16 @@ footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* css da página torcidas */
-
-.principal{
-	background: #FEFEFE;
-	
+.rodape li a:hover {
+    color: rgb(6, 166, 166);
 }
+
+.rodape p:hover{
+    color: rgb(6, 166, 166);
+    cursor: pointer;
+}
+
+/* css da página torcidas */
 
 .torcidas{
     width: 200px;
@@ -155,6 +167,65 @@ footer {
  
 }
 
+
+/* CSS da página dos Ídolos */
+
+.todos-conteudo{
+    background: #000000;  
+}
+
+
+.header-idolos img{
+    width: 100%;    
+}
+
+
+.conteiner{
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+.conteiner h4{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px 350px;
+    padding: 2px;
+    box-shadow: 1px 4px 5px #000000;
+    text-align: center;
+    color: #d4d3d3;
+    text-transform: uppercase;
+
+}
+
+
+.img-zico,.img-gabi,.img-adriano,.img-junior,.img-pet{
+    width: 300px;
+	float: left;
+	margin: 10px 20px 20px 20px;
+    padding-top: 10px;
+}
+
+
+.paragrafos-idolos{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 100px;
+    color: #d4d3d3;
+    padding: 10px 0 ;
+
+}
+
+hr{
+    height: 4px;
+    background-color: rgb(12, 11, 11);
+    border: none;
+}
+
+.video{
+    margin: 50px;
+}
 
 
 
