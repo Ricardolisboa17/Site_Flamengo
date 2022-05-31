@@ -33,7 +33,8 @@ nav li{
     margin: 0 0 0 30px;
     font-size: 22px;
     text-transform: uppercase;
-    font-weight: bold; 
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
 }
 
 nav a{
@@ -63,7 +64,7 @@ section{
     text-align: center;
     color: #d4d3d3;
     font-size: 21px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 15px;
     width: 940px;
     margin: 0 auto;
@@ -118,6 +119,7 @@ strong{
 footer {
     background: #000000;
 	padding: 30px 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer h3{
@@ -125,7 +127,6 @@ footer h3{
     font-size: 22px;  
     padding-bottom: 40px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-top: 2em;
     
@@ -145,36 +146,34 @@ footer h3{
     flex-direction: column;
     align-items: center;
     padding: 10px 0 0 0;
+    list-style: none;
 
 }
 
 
 .paragrafo-rodape{
-    color: #fdfcfc;
-    font-size: 20px;  
+    font-size: 16px;  
     padding: 15px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    color: rgb(102, 99, 99);
 }
 
 
 
 .rodape li a {
-	color: hsl(0, 0%, 91%);
-	font-size: 20px;  
+	font-size: 16px;  
     font-weight: bold;  
     padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(102, 99, 99);
 }
 
 .rodape p:hover{
-    color: #ff1922;
+    color: #eee;
     cursor: pointer;
 }
 
 .rodape li a:hover {
-    color: #ff1922;
+    color: #eee;
 }
 
 
@@ -200,15 +199,16 @@ footer hr{
 
 .principal, .principal-2, .principal-3{
     background: #000000;  
+    padding-bottom: 40px;
    
 }
 
 .principal p, .principal-2 p, .principal-3 p {
-    font-size: 22px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
     margin: 0 4em;
     color: #d4d3d3;
- 
+
 }
 
 
@@ -232,7 +232,7 @@ footer hr{
 .conteiner h4{
     font-size: 35px;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Tiro Devanagari Marathi', serif;
     margin: 1em;
     padding: 2px;
     box-shadow: 1px 4px 5px #000000;
@@ -284,6 +284,7 @@ hr{
 
    nav {
       position: static;
+      padding-bottom: 20px;
    }
 
    .texto-conteudo p {
@@ -314,19 +315,30 @@ hr{
 
 
 @media screen and (max-width: 844px){
+
+    h1, h2{
+        width: 100%;
+    }
    
     .torcidas{
-        width: 90%;
+        width:60%;
     }
 
     .principal,.principal-2, .principal-3{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
     }
+
     .principal p, .principal-2 p, .principal-3 p{
-      text-align: center;
-      margin: auto;
+      width: 90%;
+      font-size: 17px;
+      align-items: center;
 
     }
+
+  
 }
 
 
@@ -335,20 +347,36 @@ hr{
     .conteiner, h4{
         width: auto;
     }
+    
+    .conteiner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
   
    .img-zico, .img-junior, .img-adriano, .img-pet, .img-gabi{
-       width: 90%;
+       max-width:60%;
+       margin-left: 60px;
    }
 
    .paragrafos-idolos{
-       text-align: center;
-       margin: auto;
+        width: 90%;
+        font-size: 19px;
+        align-items: center;
+
    }
 
    .video{
         width: 100%;
         margin: 3em 0;
    }
+
+   footer hr{
+    height: 5px;
+    background-color: rgb(12, 11, 11);
+    border: none;
+}
+   
 }
 
 
