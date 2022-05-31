@@ -289,6 +289,7 @@ hr{
 
    .texto-conteudo p {
        width: 90%;
+       font-size: 17px;
    }
    
    
@@ -310,6 +311,10 @@ hr{
     .imagem-flamengo{
         width: 100%;
         padding-bottom: 40px;
+    }
+
+    .lista-itens {
+        font-size: 19px;
     }
 }
 
